@@ -1,0 +1,49 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "xiaojianhua <xiaojianhua@xiaoheiban.cn>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "staging": "vue-cli-service build --mode staging",
+    "test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint",
+    "release": "vue-cli-service build --mode release",
+    "api": "node ./api.js"
+  },
+  "dependencies": {
+    "@heibanfe/xp-sdk": "^1.2.7-alpha.2",
+    "@sentry/browser": "^5.6.3",
+    "@sentry/integrations": "^5.6.1",
+    "axios": "^0.18.0",
+    "vconsole": "^3.3.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@heibanfe/eslint-config-heiban": "^1.0.7",
+    "@heibanfe/stylelint-config-heiban": "^1.0.1",
+    "@sentry/webpack-plugin": "^1.8.1",
+    "@types/node": "^12.7.5",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "acorn": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "chalk": "^2.4.2",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "generate-asset-webpack-plugin": "^0.3.0",
+    "node-sass": "^4.9.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "rimraf": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "shelljs": "^0.8.3",
+    "typescript": "~3.2.1",
+    "vue-cli-plugin-typescript": "^0.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
