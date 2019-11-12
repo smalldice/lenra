@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    your project start at here
+    this is a test of publish
   </div>
 </template>
 
